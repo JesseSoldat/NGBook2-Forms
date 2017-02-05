@@ -1,18 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule, ReativeFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { DemoFormSku } from './forms/demo_form_sku';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DemoFormSku
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    ReativeFormsModule,
+    ReactiveFormsModule,
     HttpModule
   ],
   providers: [],
