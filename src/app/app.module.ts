@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { DemoFormSku } from './forms/demo_form_sku';
+import { DemoFormSkuBuilder } from './forms/demo_form_sku_with_builder';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DemoFormSku
+    DemoFormSku,
+    DemoFormSkuBuilder
   ],
   imports: [
     BrowserModule,
