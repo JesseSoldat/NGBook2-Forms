@@ -8,6 +8,9 @@ import { DemoFormSku } from './forms/demo_form_sku';
 import { DemoFormSkuBuilder } from './forms/demo_form_sku_with_builder';
 import { DemoFormWithValidationsExplicit } from './forms/demo_form_with_validations_explicit';
 import { DemoFormWithValidationsShorthand } from './forms/demo_form_with_validations_shorthand';
+import { DemoFormWithCustomValidation } from './forms/demo_form_with_custom_validations';
+import { DemoFormWithEvents } from './forms/demo_form_with_events';
+import { DemoFormNgModel } from './forms/demo_form_ng_model';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { DemoFormWithValidationsShorthand } from './forms/demo_form_with_validat
     DemoFormSku,
     DemoFormSkuBuilder,
     DemoFormWithValidationsExplicit,
-    DemoFormWithValidationsShorthand
+    DemoFormWithValidationsShorthand,
+    DemoFormWithCustomValidation,
+    DemoFormWithEvents,
+    DemoFormNgModel
   ],
   imports: [
     BrowserModule,
